@@ -22,7 +22,7 @@ import java.util.Set;
  * }
  */
 @RegisterRestClient(baseUri = "https://stage.code.quarkus.io/api")
-public interface MyRemoteService {
+public interface GithubClient {
 
     @GET
     @Path("/extensions")
